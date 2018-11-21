@@ -49,6 +49,7 @@ ROM types:
   aex
   slim
   havoc
+  bootleg
 
 Variants are dash-joined combinations of (in order):
 * processor type
@@ -149,11 +150,11 @@ function get_rom_type() {
                 treble_generate="crdroid"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 ;;
-            mokee)
-                mainrepo="https://github.com/MoKee/android.git"
-                mainbranch="mko-mr1"
-                localManifestBranch="android-8.1"
-                treble_generate="mokee"
+            serein)
+                mainrepo="https://github.com/Serein-OS/platform_manifest.git"
+                mainbranch="pie-release"
+                localManifestBranch="android-9.0"
+                treble_generate="serein"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 ;;
             aicp)
