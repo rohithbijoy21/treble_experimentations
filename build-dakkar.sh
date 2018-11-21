@@ -49,7 +49,7 @@ ROM types:
   aex
   slim
   havoc
-  bootleg
+  serein
 
 Variants are dash-joined combinations of (in order):
 * processor type
